@@ -324,7 +324,7 @@ function psm_parse_msg($status, $type, $vars) {
 	if (!$message) {
 		return $message;
 	}
-	$vars['date'] = date('d.m.Y H:i:s');
+	$vars['date'] = date(psm_get_lang('system', 'locale_date_format'));
 
 	foreach ($vars as $k => $v) {
 		$message = str_replace('%'.strtoupper($k).'%', $v, $message);

@@ -54,6 +54,7 @@ $sm_lang = array(
 		'long_day_format' => '%B %e, %Y',
 		'yesterday_format' => 'Yesterday at %k:%M',
 		'other_day_format' => '%A at %k:%M',
+		'locale_date_format' => 'Y-m-d H:i:s',
 		'never' => 'Never',
 		'hours_ago' => '%d hours ago',
 		'an_hour_ago' => 'about an hour ago',

@@ -55,6 +55,7 @@ $sm_lang = array(
 		'long_day_format' => '%e %B %Y',
 		'yesterday_format' => 'Вчера в %k:%M',
 		'other_day_format' => '%A в %k:%M',
+		'locale_date_format' => 'd.m.Y H:i:s',
 		'never' => 'Никогда',
 		'hours_ago' => '%d часов назад',
 		'an_hour_ago' => 'час назад',
